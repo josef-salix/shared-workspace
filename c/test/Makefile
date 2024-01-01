@@ -1,13 +1,18 @@
-build: main.c
-	gcc -c main.c -o main.o
+CFLAGS="-Wno-implicit-function-declaration"
+
+build: main.c hello.c
+	gcc $(CFLAGS) -c main.c -o main.o
+	gcc $(CFLAGS) -c hello.c -o hello.o
 
 compile: main.o
-	gcc main.o -o main
+	gcc $(CFLAGS) main.o -o main
+	gcc $(CFLAGS) hello.o -o hello
 
 clean: main.o
-	rm main.o main
+	rm main.o hello.o main
 
 all:
-	gcc -c main.c -o main.o
-	gcc main.o -o main
+	gcc $(CFLAGS) -c main.c -o main.o
+	gcc $(CFLAGS) -c hello.c -o hello.o
+	gcc $(CFLAGS) main.o hello.o -o main
 	chmod +x main
