@@ -2,5 +2,5 @@
 
 int main(void)
 {
-    sayHelloWorld();
+    sayHelloWorld(); /* this function was declared in the hello.c file */
 }   
