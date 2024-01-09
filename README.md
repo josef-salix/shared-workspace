@@ -1,5 +1,7 @@
 -----
-=This branch is outdated and was merged with the main branch=
+-----
+> important:
+# This branch is outdated and was merged with the main branch
 -----
 # c/test/
 ---
