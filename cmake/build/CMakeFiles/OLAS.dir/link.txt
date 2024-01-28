@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/OLAS.dir/main.c.o -o OLAS 

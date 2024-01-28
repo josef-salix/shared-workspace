@@ -1,3 +1,8 @@
+-----
+-----
+> important:
+# This branch is outdated and was merged with the main branch
+-----
 # c/test/
 ---
 A basic c program that says hello world, using 2 files.

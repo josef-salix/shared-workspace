@@ -1,0 +1,3 @@
+/home/cicin/01Public/03shared-workspace/cmake/build/CMakeFiles/hello_world_program.dir
+/home/cicin/01Public/03shared-workspace/cmake/build/CMakeFiles/edit_cache.dir
+/home/cicin/01Public/03shared-workspace/cmake/build/CMakeFiles/rebuild_cache.dir
